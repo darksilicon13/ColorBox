@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.color-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-input {
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 400px;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  outline: none;
+}
+
+.toggle-text {
+  margin-top: 10px;
+  width: 400px;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+}
